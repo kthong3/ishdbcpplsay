@@ -1,5 +1,16 @@
-<div id="SAYMAHNAME">
-  <nav><a href="/">Say Something!</a></nav>
+<link rel="stylesheet" type="text/css" href="css/application.css">
+<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 
-  <%= @twitter.tweet %>
-</div>
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+ <nav><a href="/">Say Something</a></nav>
+
+
+  <div class="response">
+    <h1>Response:</h1>
+    <div id="slice">
+      <h2><%= @twitter.tweet %></h2>
+    </div>
+  </div>
+
+
